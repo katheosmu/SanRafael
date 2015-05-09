@@ -1,0 +1,29 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"        >
+        <TextView
+            style="@style/textViewStyleTittle"
+            android:text="@string/app_name"/>
+        <ImageView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/sanrafael"
+            android:adjustViewBounds="true"
+            android:scaleType="centerCrop"/>
+        <TextView
+            style="@style/textViewStyle"
+            android:text="@string/publicidad"></TextView>
+        <ImageView
+            android:layout_width="fill_parent"
+            android:layout_height="500dp"
+            android:src="@drawable/sanrafael7"
+            android:adjustViewBounds="true"
+            android:scaleType="centerCrop"/>
+    </LinearLayout>
+
+</ScrollView>
