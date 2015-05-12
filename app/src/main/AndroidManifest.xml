@@ -28,6 +28,14 @@
             android:name=".BarActivity"
             android:label="@string/title_activity_bar" >
         </activity>
+        <activity
+            android:name=".TurismoActivity"
+            android:label="@string/title_activity_turismo" >
+        </activity>
+        <activity
+            android:name=".DemografiaActivity"
+            android:label="@string/title_activity_demografia" >
+        </activity>
     </application>
 
 </manifest>

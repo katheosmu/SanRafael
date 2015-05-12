@@ -20,6 +20,5 @@
         tools:ignore="DuplicateIds" />
     <item android:id="@+id/aboutUs"
         android:title="@string/title_activity_acerca"
-        android:orderInCategory="100"
-        />
+        android:orderInCategory="100"/>
 </menu>

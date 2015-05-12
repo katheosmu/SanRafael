@@ -55,8 +55,12 @@ public class MainActivity extends ActionBarActivity {
                 startActivity(k);
                 return true;
             case R.id.turisticos:
-                Intent t = new Intent(this,HotelActivity.class);
+                Intent t = new Intent(this,TurismoActivity.class);
                 startActivity(t);
+                return true;
+            case R.id.demografia:
+                Intent l = new Intent(this,DemografiaActivity.class);
+                startActivity(l);
                 return true;
             /*case R.id.settings:
                 Intent s = new Intent(this,SettingsActivity.class);
